@@ -84,7 +84,7 @@ app.options("*", (req, res) => {
   res.status(200).set(headers).send("🤝");
 });
 
-const PORT = process.env.PORT || 4009;
+const PORT = process.env.PORT || 80;
 
 app.listen(PORT, () => {
   console.log(`Server running on port http://localhost:${PORT}`);
